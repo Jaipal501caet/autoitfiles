@@ -1,0 +1,8 @@
+WinWaitActive("Authentication Required - Mozilla Firefox")
+Send("JCY24")
+sleep(2000)
+Send("{TAB}")
+sleep(1000)
+Send("Sky$2020", 1)
+sleep(1000)
+Send("{Enter}")

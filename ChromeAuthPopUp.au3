@@ -1,0 +1,8 @@
+WinWaitActive("[TITLE:https://sts.intranet.sky; CLASS:Chrome_WidgetWin_1]")
+Send("JCY24")
+sleep(2000)
+Send("{TAB}")
+sleep(1000)
+Send("Sky$2020", 1)
+sleep(1000)
+Send("{Enter}")
